@@ -7,7 +7,9 @@
 	"license": "MIT",
 	"private": true,
 	"scripts": {
-		"start": "nodemon index.js --exec babel-node --presets es2015,stage-2"
+		"start": "nodemon src/index.js --exec babel-node",
+		"build": "babel src -d build",
+		"serve": "node build/index.js"
 	},
 	"devDependencies": {
 		"babel-cli": "^6.26.0",
