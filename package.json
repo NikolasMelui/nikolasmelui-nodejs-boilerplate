@@ -1,6 +1,6 @@
 {
 	"name": "multikey-nodejs-boilerplate",
-	"version": "1.0.1",
+	"version": "2.0.0",
 	"main": "index.js",
 	"repository": "git@github.com:NikolasMelui/multikey-nodejs-boilerplate.git",
 	"author": "NikolasMelui <slak@samaradom.ru>",
@@ -16,20 +16,11 @@
 		"babel-preset-env": "^1.6.1",
 		"babel-preset-stage-2": "^6.24.1",
 		"eslint": "^4.19.1",
-		"eslint-config-airbnb": "^16.1.0",
 		"eslint-config-prettier": "^2.9.0",
-		"eslint-plugin-import": "^2.10.0",
 		"nodemon": "^1.17.3"
 	},
-	"eslintConfig": {
-		"root": true,
-		"env": {
-			"node": true
-		},
-		"extends": [
-			"airbnb-base",
-			"prettier"
-		]
-	},
-	"eslint.packageManager": "yarn"
+	"eslint.packageManager": "yarn",
+	"dependencies": {
+		"@types/node": "^10.3.1"
+	}
 }
