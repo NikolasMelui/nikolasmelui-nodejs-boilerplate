@@ -1,19 +1,15 @@
 import http from 'http';
-
-const config = {
-  port: 3000
-};
+import {} from 'dotenv/config';
 
 http
   .createServer((req, res) => {
-    global.console.log();
     res.writeHead(200, 'OK', { 'Content-Type': 'text/plain' });
     res.end(
-      `Hello from port: ${
-        config.port
+      `Hello from port ${
+        process.env.SERVER_PORT
       } and welcome to multikey-node-boilerplate!`
     );
   })
-  .listen(config.port, () =>
-    global.console.log(`Server is listening on port ${config.port}`)
+  .listen(process.env.SERVER_PORT, () =>
+    console.log(`Server is listening on port ${process.env.SERVER_PORT}`)
   );
