@@ -8,9 +8,9 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
-    'linebreak-style': ['error', 'unix'],
     quotes: ['error', 'single', { allowTemplateLiterals: true }],
     semi: ['error', 'always'],
-    'no-console': ['allow', 'always']
+    'no-console': ['allow', 'always'],
+    'linebreak-style': ['error', 'unix']
   }
 };
