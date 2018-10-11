@@ -1,12 +1,12 @@
 import http from 'http';
 import {} from 'dotenv/config';
-import { getClientHost, getClientPort } from './helpers';
+import { getServerHost, getServerPort } from './helpers';
 
 http
   .createServer((req, res) => {
     res.writeHead(200, 'OK', { 'Content-Type': 'text/plain' });
     res.end(
-      `Hello from ${getClientHost(req)}:${getClientPort(
+      `Hello from ${getServerHost(req)}:${getServerPort(
         req
       )} and welcome to the multikey-node-boilerplate!`
     );
