@@ -1,52 +1,59 @@
+# Multikey Node.js Boilerplate
 
-Multikey Node.js Boilerplate
-======
 Multikey Node.js Boilerplate, powered by [NikolasMelui][nikolasmelui] for [Multikey Studio][multikey-studio], is a light nodejs boilerplate with babel, eslint, prettier and nodemon onboard. Just clone it, install deps, yarn start and have fun!
 
-## If u want 2 b faster...
-Try 2 use  [yarn][yarn]
-__
+## If u want 2 b faster use Yarn
+
+[yarn][yarn]
+\_\_
 ... or use [npm][npm].
 
 ## Installation
 
 I want 2 be faster so:
+
 ```
 $ yarn install
 ```
 
 ### Quick Start
 
-
 Once everything is installed just run the project:
+
 ```
 $ yarn start
 ```
+
 If u want 2 use this code in production - transpile to native es5:
+
 ```
 $ yarn run build
 ```
+
 and run:
 
 ```
 $ yarn run serve
 ```
+
 ## Development
 
 Contribute? Sure!
 This is an opensource project. All contributions are welcome. Make a fork and go on!
-__
+\_\_
 
-| Todos | Status |
-| ------ | ------ |
-| Webpack | - |
-| ESLint | + |
-| Mocha | - |
-| CI\CD | - |
-| Docker | - |
-___
-License
-----
+| Todos   | Status |
+| ------- | ------ |
+| Webpack | -      |
+| ESLint  | +      |
+| Jest    | +      |
+| CI\CD   | -      |
+| Docker  | -      |
+
+---
+
+## License
+
 MIT License
 
 Copyright (c) 2018 NikolasMelui
@@ -72,9 +79,9 @@ SOFTWARE.
 **From developers 2 developers.**
 [NikolasMelui][nikolasmelui]
 
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-   [nikolasmelui]: <https://github.com/NikolasMelui>
-   [nodejs]: <http://nodejs.org>
-   [multikey-studio]: <https://github.com/MultikeyStudio>
-   [yarn]: <https://yarnpkg.com/en/>
-   [npm]: <https://www.npmjs.com/>
+[//]: # "These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax"
+[nikolasmelui]: https://github.com/NikolasMelui
+[nodejs]: http://nodejs.org
+[multikey-studio]: https://github.com/MultikeyStudio
+[yarn]: https://yarnpkg.com/en/
+[npm]: https://www.npmjs.com/
