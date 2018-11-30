@@ -6,7 +6,8 @@ module.exports = {
   },
   extends: ['eslint:recommended', 'prettier'],
   parserOptions: {
-    sourceType: 'module',
+    ecmaVersion: 8,
+    sourceType: 'module'
   },
   rules: {
     quotes: ['error', 'single', { allowTemplateLiterals: true }],
