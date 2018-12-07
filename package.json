@@ -1,7 +1,7 @@
 {
   "name": "multikey-nodejs-boilerplate",
-  "version": "2.0.0",
-  "main": "index.js",
+  "version": "2.0.1",
+  "main": "./src/indes.js",
   "repository": "git@github.com:NikolasMelui/multikey-nodejs-boilerplate.git",
   "author": "NikolasMelui <slak@samaradom.ru>",
   "license": "MIT",
@@ -14,16 +14,16 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-stage-2": "^6.24.1",
-    "dotenv": "^6.1.0",
-    "eslint": "^4.19.1",
-    "eslint-config-prettier": "^2.9.0",
+    "dotenv": "^6.2.0",
+    "eslint": "^5.9.0",
+    "eslint-config-prettier": "^3.3.0",
     "jest": "^23.6.0",
-    "nodemon": "^1.17.3"
+    "nodemon": "^1.18.7"
   },
   "eslint.packageManager": "yarn",
   "dependencies": {
-    "@types/node": "^10.3.1"
+    "@types/node": "^10.12.12"
   }
 }
