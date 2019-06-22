@@ -1,4 +1,4 @@
-import { getServerHost, getServerPort } from './helpers';
+import { getServerHost, getServerPort } from '../helpers';
 
 test('should output the server hostname', () => {
   const serverHost = getServerHost({
