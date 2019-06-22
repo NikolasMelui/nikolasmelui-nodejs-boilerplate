@@ -1,11 +1,11 @@
-# Multikey Node.js Boilerplate
+# Node.js Boilerplate
 
-Multikey Node.js Boilerplate, powered by [NikolasMelui][nikolasmelui] for [Multikey Studio][multikey-studio], is a lightweight nodejs boilerplate with babel, eslint, prettier, jest and nodemon onboard. Just clone it, install deps, yarn start and have fun!
+Node.js Boilerplate, powered by [NikolasMelui][nikolasmelui] is a lightweight nodejs boilerplate with babel, eslint, prettier, jest and nodemon onboard. Just clone it, install deps, npm start and have fun!
 
 ## Installation
 
 ```bash
-$ yarn
+$ npm i
 ___
 ```
 
@@ -14,21 +14,28 @@ ___
 Once everything is installed just run the project:
 
 ```bash
-$ yarn start
+$ npm start
 ___
 ```
 
-If u want 2 use this code in production - transpile it to the native es5:
+To run the development mode type (npm start is the same thing):
 
 ```bash
-$ yarn build
+$ npm run dev
 ___
 ```
 
-and run:
+If u want production version -  transpile it to the native es5:
 
 ```bash
-$ yarn serve
+$ npm run build
+___
+```
+
+To run the production version type:
+
+```bash
+$ npm run prod
 ___
 ```
 
