@@ -1,29 +1,37 @@
 {
-  "name": "multikey-nodejs-boilerplate",
-  "version": "2.0.1",
+  "name": "nodejs-boilerplate",
+  "version": "3.0.0",
   "main": "./src/indes.js",
-  "repository": "git@github.com:NikolasMelui/multikey-nodejs-boilerplate.git",
+  "repository": "git@github.com:NikolasMelui/nodejs-boilerplate.git",
   "author": "NikolasMelui <slak@samaradom.ru>",
   "license": "MIT",
   "private": true,
   "scripts": {
     "start": "nodemon src/index.js --exec babel-node",
-    "build": "babel src -d build",
-    "serve": "node build/index.js",
+    "dev": "npm start",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prod": "nodemon ./dist/index.js",
+    "babel-node": "babel-node",
+    "prepublishOnly": "npm run build",
+    "lint": "eslint .",
     "test": "jest"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-2": "^6.24.1",
-    "dotenv": "^6.2.0",
-    "eslint": "^5.9.0",
-    "eslint-config-prettier": "^3.3.0",
-    "jest": "^23.6.0",
-    "nodemon": "^1.18.7"
+    "@babel/core": "^7.4.5",
+    "@babel/cli": "^7.4.4",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-eslint": "^10.0.2",
+    "babel-jest": "^24.8.0",
+    "dotenv": "^8.0.0",
+    "eslint": "^6.0.0",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jest": "^22.7.1",
+    "jest": "^24.8.0",
+    "jest-cli": "^24.8.0",
+    "nodemon": "^1.19.1"
   },
-  "eslint.packageManager": "yarn",
-  "dependencies": {
-    "@types/node": "^10.12.12"
-  }
+  "eslint.packageManager": "npm"
 }
