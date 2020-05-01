@@ -1,25 +1,20 @@
 {
   "env": {
-    "node": true,
-    "jest": true
+    "commonjs": true,
+    "es6": true,
+    "node": true
   },
-  "plugins": ["babel", "jest"],
-  "extends": ["prettier", "plugin:jest/recommended"],
-  "parser": "babel-eslint",
+  "extends": ["prettier", "eslint:recommended"],
+  "plugins": ["prettier"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly",
+    "BigInt": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
   "rules": {
-    "no-console": 0,
-    "semi": ["error", "always"],
-    "linebreak-style": ["error", "unix"],
-    "comma-dangle": [
-      "error",
-      {
-        "arrays": "always-multiline",
-        "objects": "always-multiline",
-        "imports": "always-multiline",
-        "exports": "always-multiline",
-        "functions": "always-multiline"
-      }
-    ],
-    "quotes": ["error", "single", { "allowTemplateLiterals": true }]
+    "prettier/prettier": "error"
   }
 }
