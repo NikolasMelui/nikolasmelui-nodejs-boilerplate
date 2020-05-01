@@ -1,19 +1,21 @@
-import { getServerHost, getServerPort } from '../helpers';
+'use strict';
 
-test('should output the server hostname', () => {
-  const serverHost = getServerHost({
-    headers: {
-      host: 'localhost:3000',
-    },
-  });
-  expect(serverHost).toBe('localhost');
-});
+// Tests
+const { equal } = require('.');
 
-test('should output the server port', () => {
-  const serverPort = getServerPort({
-    headers: {
-      host: 'localhost:3000',
-    },
-  });
-  expect(serverPort).toBe('3000');
-});
+// Mock data
+const serverData = require('./mocks/serverData');
+
+const { getApplicationHost, getApplicationPort } = require('../helpers');
+
+equal(
+  'Should output the application host',
+  getApplicationHost(serverData),
+  '127.0.0.1',
+);
+
+equal(
+  'Should output the application port',
+  getApplicationPort(serverData),
+  '3000',
+);
