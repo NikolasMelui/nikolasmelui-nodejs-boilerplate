@@ -1,12 +1,11 @@
-# Node.js Boilerplate
+# 🔥 Nikolasmelui Nodejs Boilerplate
 
-Node.js Boilerplate, powered by [NikolasMelui][nikolasmelui] is a lightweight nodejs boilerplate with babel, eslint, prettier, jest and nodemon onboard. Just clone it, install deps, npm start and have fun!
+Nikolasmelui Nodejs Boilerplate powered by [NikolasMelui][nikolasmelui] is a lightweight nodejs boilerplate using [eslint][eslint], [prettier][prettier], [lint-staged][lint-staged], [husky][husky] and [nodemon][nodemon] onboard. Just clone it, `nmp i`, `npm start` and have fun!
 
 ## Installation
 
 ```bash
-$ npm i
-___
+npm i
 ```
 
 ### Quick Start
@@ -14,44 +13,49 @@ ___
 Once everything is installed just run the project:
 
 ```bash
-$ npm start
-___
+npm start
 ```
 
-To run the development mode type (npm start is the same thing):
+You can run the development mode:
 
 ```bash
-$ npm run dev
-___
+npm run develop
 ```
 
-If u want production version -  transpile it to the native es5:
+Or if you need to debug with an inspector:
 
 ```bash
-$ npm run build
-___
+npm run debug
 ```
 
-To run the production version type:
+## Makefile
 
-```bash
-$ npm run prod
-___
-```
+All of the npm scripts is in Makefile, so you can us it
+
+## Husky and lint-staged onboard
+
+The husky and lint-staged will not let you make a mistake, pre-comit and pre-push are always on guard!
 
 ## Development
 
 Contribute? Sure!
-This is an opensource project. All contributions are welcome. Make a fork and go on!
-\_\_
+This is an opensource project, so all of the contributions are welcome. Make a fork and go!
 
-| Todos   | Status |
-| ------- | ------ |
-| Webpack | -      |
-| ESLint  | +      |
-| Jest    | +      |
-| CI\CD   | -      |
-| Docker  | -      |
+| Todos       | Status |
+| ----------- | ------ |
+| Nodemon     | +      |
+| Tests       | +      |
+| ESLint      | +      |
+| Lint-staged | +      |
+| Prettier    | +      |
+| Husky       | +      |
+| Logger      | -      |
+| CI\CD       | -      |
+| Docker      | -      |
+| Postgres    | -      |
+| Workers     | -      |
+| WebSockets  | -      |
+| VMContexts  | -      |
 
 ---
 
@@ -85,6 +89,9 @@ SOFTWARE.
 [//]: # "These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax"
 [nikolasmelui]: https://github.com/NikolasMelui
 [nodejs]: http://nodejs.org
-[multikey-studio]: https://github.com/MultikeyStudio
-[yarn]: https://yarnpkg.com/en/
 [npm]: https://www.npmjs.com/
+[eslint]: https://eslint.org/
+[prettier]: https://prettier.io/
+[lint-staged]: https://github.com/okonet/lint-staged
+[husky]: https://github.com/typicode/husky
+[nodemon]: https://www.npmjs.com/package/nodemon
