@@ -8,6 +8,14 @@ Nikolasmelui Nodejs Boilerplate powered by [NikolasMelui][nikolasmelui] is a lig
 npm i
 ```
 
+## Config
+
+All necessary configs is in the `config.js` file. You need to create last one or copy `config.example.js` to the `config.js`, then us it!
+
+```bash
+cp config.example.js config.js
+```
+
 ### Quick Start
 
 Once everything is installed just run the project:
