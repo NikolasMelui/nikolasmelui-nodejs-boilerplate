@@ -1,6 +1,6 @@
 {
   "name": "nikolasmelui-nodejs-boilerplate",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "private": true,
   "description": "Lightweight nodejs boilerplate using eslint, prettier, lint-staged, husky and nodemon onboard.",
   "author": {
