@@ -6,6 +6,5 @@ npm-debug.log*
 .npm
 .eslintcache
 .node_repl_history
-.env
-.env.test
 .DS_Store
+/src/config.js
