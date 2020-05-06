@@ -1,14 +1,7 @@
 'use strict';
 
-// Libraries
 const http = require('http');
-
-// DonEnv
-const dotenv = require('dotenv');
-dotenv.config();
-const { APPLICATION_HOST, APPLICATION_PORT } = process.env;
-
-// Helpers
+const { APPLICATION_HOST, APPLICATION_PORT } = require('./config');
 const { getApplicationHost, getApplicationPort } = require('./helpers');
 
 http
