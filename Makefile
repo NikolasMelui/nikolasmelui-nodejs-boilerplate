@@ -11,4 +11,4 @@ eslint: ;@echo "Eslinting the project...\n"; \
 prettier: ;@echo "Prettiering the project...\n"; \
 	./node_modules/.bin/prettier ./src/ --wtire
 test: ;@echo "Testing the project...\n"; \
-	node ./src/__tests__
+	node ./src/tests
