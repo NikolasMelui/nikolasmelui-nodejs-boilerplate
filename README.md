@@ -10,7 +10,7 @@ npm i
 
 ## Config
 
-All necessary configs is in the `config.js` file. You need to create last one or copy `config.example.js` to the `config.js`, then us it!
+All necessary configs is in the `config.js` file. You need to create last one or copy `config.example.js` to the `config.js` and use it!
 
 ```bash
 cp config.example.js config.js
