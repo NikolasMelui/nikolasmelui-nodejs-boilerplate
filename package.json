@@ -31,6 +31,7 @@
     "develop": "./node_modules/.bin/nodemon ./src/server.js",
     "debug": "./node_modules/.bin/nodemon . --inspect ./src/server.js",
     "eslint": "./node_modules/.bin/eslint ./src/ --max-warnings=0",
+    "eslint:fix": "./node_modules/.bin/eslint ./src/ --fix",
     "prettier": "./node_modules/.bin/prettier ./src/ --write",
     "test": "node ./src/tests"
   },
