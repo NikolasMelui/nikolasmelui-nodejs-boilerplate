@@ -1,6 +1,6 @@
 # 🔥 Nikolasmelui Nodejs Boilerplate
 
-Nikolasmelui Nodejs Boilerplate powered by [NikolasMelui][nikolasmelui] is a lightweight nodejs boilerplate using [eslint][eslint], [prettier][prettier], [lint-staged][lint-staged], [husky][husky] and [nodemon][nodemon] onboard. Just clone it, `nmp i`, `npm start` and have fun!
+[Nikolasmelui Nodejs Boilerplate][nikolasmelui-nodejs-boilerplate] powered by [NikolasMelui][nikolasmelui] is a lightweight nodejs boilerplate using [eslint][eslint], [prettier][prettier], [lint-staged][lint-staged], [husky][husky] and [nodemon][nodemon] onboard. Just clone it, `nmp i`, `npm start` and have fun!
 
 ## Installation
 
@@ -10,7 +10,7 @@ npm i
 
 ## Config
 
-All necessary configs is in the `config.js` file. You need to create last one or copy `config.example.js` to the `config.js` and use it!
+All necessary configs and your secrets is in the `config.js` file you need to create by copying the `config.example.js`:
 
 ```bash
 cp config.example.js config.js
@@ -24,7 +24,7 @@ Once everything is installed just run the project:
 npm start
 ```
 
-You can run the development mode:
+You can run it in the development mode:
 
 ```bash
 npm run develop
@@ -38,7 +38,11 @@ npm run debug
 
 ## Makefile
 
-All of the npm scripts is in Makefile, so you can us it
+All of the npm scripts is in the Makefile, so you can us it
+
+```bash
+make <your_command>
+```
 
 ## Husky and lint-staged onboard
 
@@ -58,9 +62,8 @@ This is an opensource project, so all of the contributions are welcome. Make a f
 | Prettier    | +      |
 | Husky       | +      |
 | Logger      | -      |
-| CI\CD       | -      |
 | Docker      | -      |
-| Postgres    | -      |
+| CI\CD       | -      |
 | Workers     | -      |
 | WebSockets  | -      |
 | VMContexts  | -      |
@@ -96,6 +99,7 @@ SOFTWARE.
 
 [//]: # "These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax"
 [nikolasmelui]: https://github.com/NikolasMelui
+[nikolasmelui-nodejs-boilerplate]: https://github.com/NikolasMelui/nikolasmelui-nodejs-boilerplate
 [nodejs]: http://nodejs.org
 [npm]: https://www.npmjs.com/
 [eslint]: https://eslint.org/
