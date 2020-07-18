@@ -2,6 +2,10 @@
 
 [Nikolasmelui Nodejs Boilerplate][nikolasmelui-nodejs-boilerplate] powered by [NikolasMelui][nikolasmelui] is a lightweight nodejs boilerplate using [eslint][eslint], [prettier][prettier], [lint-staged][lint-staged], [husky][husky] and [nodemon][nodemon] onboard. Just clone it, `nmp i`, `npm start` and have fun!
 
+## Node.js >=14.5 version
+
+The project is node.js engine stricted by the >=14.5.0 version!
+
 ## Installation
 
 ```bash
