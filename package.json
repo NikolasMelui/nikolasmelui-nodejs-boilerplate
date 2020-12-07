@@ -1,6 +1,6 @@
 {
   "name": "nikolasmelui-nodejs-boilerplate",
-  "version": "4.3.0",
+  "version": "4.4.0",
   "private": true,
   "description": "Lightweight nodejs boilerplate using eslint, prettier, lint-staged, husky and nodemon onboard.",
   "author": {
@@ -25,11 +25,11 @@
     "httpsserver",
     "nodejsserver"
   ],
-  "main": "./src/server.js",
+  "main": "./src/index.js",
   "scripts": {
-    "start": "node ./src/server.js",
-    "develop": "./node_modules/.bin/nodemon ./src/server.js",
-    "debug": "./node_modules/.bin/nodemon . --inspect ./src/server.js",
+    "start": "node ./src/index.js",
+    "develop": "./node_modules/.bin/nodemon ./src/index.js",
+    "debug": "./node_modules/.bin/nodemon . --inspect ./src/index.js",
     "eslint": "./node_modules/.bin/eslint ./src/ --max-warnings=0",
     "eslint:fix": "./node_modules/.bin/eslint ./src/ --fix",
     "prettier": "./node_modules/.bin/prettier ./src/ --write",
@@ -44,16 +44,16 @@
   },
   "homepage": "https://github.com/nikolasmelui/nikolasmelui-nodejs-boilerplate",
   "engines": {
-    "node": ">=14.5.0"
+    "node": ">=14.0.0"
   },
   "devDependencies": {
-    "eslint": "^7.4.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "husky": "^4.2.5",
-    "lint-staged": "^10.2.11",
-    "prettier": "^2.0.5",
-    "nodemon": "^2.0.4"
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-prettier": "^3.2.0",
+    "husky": "^4.3.5",
+    "lint-staged": "^10.5.3",
+    "prettier": "^2.2.1",
+    "nodemon": "^2.0.6"
   },
   "eslint.packageManager": "npm",
   "lint-staged": {
