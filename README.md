@@ -1,10 +1,10 @@
 # 🔥 Nikolasmelui Nodejs Boilerplate
 
-[Nikolasmelui Nodejs Boilerplate][nikolasmelui-nodejs-boilerplate] powered by [NikolasMelui][nikolasmelui] is a lightweight nodejs boilerplate using [eslint][eslint], [prettier][prettier], [lint-staged][lint-staged], [husky][husky] and [nodemon][nodemon] onboard. Just clone it, `nmp i`, `npm start` and have fun!
+[Nikolasmelui Nodejs Boilerplate][nikolasmelui-nodejs-boilerplate] powered by [NikolasMelui][nikolasmelui] is a lightweight nodejs boilerplate using [eslint][eslint], [prettier][prettier], [lint-staged][lint-staged], [husky][husky] and [nodemon][nodemon] onboard. Just clone it, `nmp i`, `npm start` and start to create your cool node.js application!
 
-## Node.js >=14.5 version
+## Node.js ^14 version
 
-The project is node.js engine stricted by the >=14.5.0 version!
+The project is stricted by the >=14.5.0 node.js version!
 
 ## Installation
 
@@ -28,7 +28,7 @@ Once everything is installed just run the project:
 npm start
 ```
 
-You can run it in the development mode:
+You can run the project in the development mode:
 
 ```bash
 npm run develop
@@ -42,7 +42,7 @@ npm run debug
 
 ## Makefile
 
-All of the npm scripts is in the Makefile, so you can us it
+All npm scripts are in the Makefile, so you can use it:
 
 ```bash
 make <your_command>
