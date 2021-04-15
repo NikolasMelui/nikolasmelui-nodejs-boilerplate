@@ -30,8 +30,8 @@
     "start": "node ./src/index.js",
     "develop": "./node_modules/.bin/nodemon ./src/index.js",
     "debug": "./node_modules/.bin/nodemon . --inspect ./src/index.js",
-    "eslint": "./node_modules/.bin/eslint ./src/ --max-warnings=0",
-    "eslint:fix": "./node_modules/.bin/eslint ./src/ --fix",
+    "eslint": "./node_modules/.bin/eslint ./src/ --cache --max-warnings=0",
+    "eslint:fix": "./node_modules/.bin/eslint ./src/ --cache --fix",
     "prettier": "./node_modules/.bin/prettier ./src/ --write",
     "test": "node ./src/tests"
   },
@@ -59,7 +59,7 @@
   "eslint.packageManager": "npm",
   "lint-staged": {
     "*.js": [
-      "eslint --cache --fix",
+      "npm run eslint",
       "npm run prettier",
       "npm test"
     ]
