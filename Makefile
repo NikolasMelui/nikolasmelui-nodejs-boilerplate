@@ -7,8 +7,10 @@ develop: ;@echo "Starting the project in develop mode with nodemon...\n"; \
 debug: ;@echo "Starting the project in debug mode with nodemon...\n"; \
 	./node_modules/.bin/nodemon . --inspect ./src/index.js
 eslint: ;@echo "Eslinting the project...\n"; \
-	./node_modules/.bin/eslint ./src/ --max-warnings=0
-prettier: ;@echo "Prettiering the project...\n"; \
-	./node_modules/.bin/prettier ./src/ --wtire
+	./node_modules/.bin/eslint ./src/ --cache --max-warnings=0
+eslint-fix: ;@echo "Eslinting the project with fixing...\n"; \
+	./node_modules/.bin/eslint ./src/ --cache --fix
+prettier: ;@echo "Prettifying the project...\n"; \
+	./node_modules/.bin/prettier ./src/ --write
 test: ;@echo "Testing the project...\n"; \
 	node ./src/tests
