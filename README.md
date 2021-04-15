@@ -65,12 +65,8 @@ This is an opensource project, so all of the contributions are welcome. Make a f
 | Lint-staged | +      |
 | Prettier    | +      |
 | Husky       | +      |
-| Logger      | -      |
 | Docker      | -      |
 | CI\CD       | -      |
-| Workers     | -      |
-| WebSockets  | -      |
-| VMContexts  | -      |
 
 ---
 

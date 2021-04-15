@@ -1,7 +1,0 @@
-{
-  "hooks": {
-    "pre-commit": "./node_modules/.bin/lint-staged",
-    "pre-push": "./node_modules/.bin/lint-staged",
-    "commit-msg": "echo \"🐶 Husky is here, pre-commit eslint, prettier and tests is running...\""
-  }
-}
